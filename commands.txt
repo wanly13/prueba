@@ -1,0 +1,5 @@
+En gitBash
+python -m venv myenv
+source myenv/bin/activate
+pip install fastapi uvicorn
+uvicorn main:app --reload
